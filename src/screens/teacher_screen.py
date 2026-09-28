@@ -397,7 +397,7 @@ def teacher_screen_login():
             key='teacher_login_back_btn',
             shortcut="control+backspace"
         ):
-            st.session_state['teacher_login_type'] = None
+            st.session_state['login_type'] = None
             st.rerun()
 
     st.header("Login using password", text_alignment="center")

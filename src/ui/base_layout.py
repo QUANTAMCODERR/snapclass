@@ -42,19 +42,19 @@ def style_base_layout():
             
             @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
             
-                /* Hide Top Bar of Streamlit*/
-                  header[data-testid="stHeader"] {
-                display: none !important;
-            }
+            #     /* Hide Top Bar of Streamlit*/
+            #       header[data-testid="stHeader"] {
+            #     display: none !important;
+            # }
                 
-                #MainMenu, footer, header {
-                    visibility: hidden !important;
+            #     #MainMenu, footer, header {
+            #         visibility: hidden !important;
                     
-                }
+            #     }
                 
-                .block-container{
-                    padding-top:0rem !important
-                }
+            #     .block-container{
+            #         padding-top:0rem !important
+            #     }
                 
                  /* H1 */
             h1 {
