@@ -1,3 +1,4 @@
+streamlit
 numpy
 pandas
 
@@ -24,5 +25,10 @@ pillow
 
 # streamlit
 
-streamlit
+
+#voice libraries
+
+librosa
+resemblyzer
+
 

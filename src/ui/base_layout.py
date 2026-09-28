@@ -42,19 +42,19 @@ def style_base_layout():
             
             @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
             
-                /* Hide Top Bar of Streamlit*/
-                  header[data-testid="stHeader"] {
-                display: none !important;
-            }
+            #     /* Hide Top Bar of Streamlit*/
+            #       header[data-testid="stHeader"] {
+            #     display: none !important;
+            # }
                 
-                #MainMenu, footer, header {
-                    visibility: hidden !important;
+            #     #MainMenu, footer, header {
+            #         visibility: hidden !important;
                     
-                }
+            #     }
                 
-                .block-container{
-                    padding-top:0rem !important
-                }
+            #     .block-container{
+            #         padding-top:0rem !important
+            #     }
                 
                  /* H1 */
             h1 {
@@ -80,7 +80,7 @@ def style_base_layout():
             
             button{
                 border-radius:1.5rem !important;
-                background: #5865f2 !important;
+                background-color: #5865f2 !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -88,7 +88,7 @@ def style_base_layout():
             }
             button[kind="secondary"]{
                 border-radius:1.5rem !important;
-                background: #EB459E !important;
+                background-color: #EB459E !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -96,7 +96,7 @@ def style_base_layout():
             }
             button[kind="tertiary"]{
                 border-radius:1.5rem !important;
-                background: black !important;
+                background-color: black !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
